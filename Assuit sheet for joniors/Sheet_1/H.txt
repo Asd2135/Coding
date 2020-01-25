@@ -1,0 +1,13 @@
+#include <stdio.h>
+#include <stdlib.h>
+ 
+int main(void)
+{
+    long long y,m,d,t;
+    scanf("%lli",&t);
+    y=t/365;
+    m=(t-(y*365))/30;
+    d=t-((y*365)+(m*30));
+    printf("%lli years\n%lli months\n%lli days\n",y,m,d);
+    return 0;
+}

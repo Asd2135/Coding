@@ -1,0 +1,18 @@
+#include <stdio.h>
+#include <stdlib.h>
+ 
+int main(void)
+{
+    long long a;
+    scanf("%lli",&a);
+    if ((a/1000)%2==0)
+    {
+        printf("EVEN");
+    }
+    else
+    {
+       printf("ODD");
+    }
+ 
+    return 0;
+}

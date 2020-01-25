@@ -1,0 +1,18 @@
+#include <stdio.h>
+#include <stdlib.h>
+ 
+int main(void)
+{
+    long long a,s;
+    scanf("%lli%lli",&a,&s);
+    if (a%s==0 || s%a==0)
+    {
+        printf("Multiples");
+    }
+    else
+    {
+       printf("No Multiples");
+    }
+ 
+    return 0;
+}

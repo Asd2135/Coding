@@ -1,0 +1,23 @@
+#include <stdio.h>
+#include <stdlib.h>
+ 
+int main()
+{
+    int a , b ,c ,max ,min;
+    scanf("%d %d %d",&a ,&b ,&c);
+    min = (a<c)?((a<b)?a:b):((c<b)?c:b);
+    max = (a>b)? ((a>c)?a:c):((b>c)?b:c);
+    printf("%d\n" ,min);
+    if(a<max && a>min)
+        printf("%d\n",a);
+    else if(b<max && b>min)
+        printf("%d\n",b);
+    else if(c<max && c>min)
+        printf("%d\n",c);
+    printf("%d\n" ,max);
+    printf("\n");
+    printf("%d\n%d\n%d\n" ,a ,b ,c);
+ 
+ 
+    
+}

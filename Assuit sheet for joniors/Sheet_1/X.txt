@@ -1,0 +1,9 @@
+#include <stdio.h>
+ 
+int main()
+{
+    char *s[]={"January","February","March","April","May","June","July","August","September","October","November","December"};
+    int n;
+    scanf("%d",&n);
+    printf("%s",s[n-1]);
+}

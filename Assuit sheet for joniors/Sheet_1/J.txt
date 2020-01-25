@@ -1,0 +1,11 @@
+#include <stdio.h>
+#include <stdlib.h>
+ 
+int main(void)
+ 
+{
+    long long int x,y;
+    scanf("%lli%lli",&x,&y);
+    printf("%lli",(x%10)+(y%10));
+ 
+}

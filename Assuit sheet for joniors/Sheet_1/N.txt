@@ -1,0 +1,28 @@
+#include <stdio.h>
+#include <stdlib.h>
+#include<math.h>
+ 
+ 
+int main(void)
+{
+    char x;
+    scanf ("%c",&x);
+ 
+    if (x>='a'&& x<='z')
+ 
+    {
+        printf("IS SMALL");
+    }
+    else if (x>='A'&&x<='Z')
+    {
+        printf("IS CAPITAL");
+    }
+ 
+ 
+    else
+    {
+        printf("Plz inter a valid input");
+ 
+    }
+ 
+}

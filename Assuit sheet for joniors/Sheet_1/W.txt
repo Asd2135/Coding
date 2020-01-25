@@ -1,0 +1,16 @@
+#include<stdio.h>
+int main()
+{
+long long a;
+scanf("%lli",&a);
+if(a==61)
+printf("Art of computer programming");
+else if(a==71)
+printf("Introduction to algorithm");
+else if(a==11)
+printf("Competitive programming");
+else if(a==29)
+printf("Programming challenges");
+else
+printf("Not found");
+}

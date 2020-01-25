@@ -1,0 +1,27 @@
+#include <stdio.h>
+#include <stdlib.h>
+ 
+int main(void)
+ 
+{
+    int x,y;
+    char z;
+    scanf("%d %c %d",&x,&z,&y);
+    if (z=='>'&& x > y)
+    {
+        printf("Right");
+    }
+    else if (z=='<' && x<y)
+    {
+       printf("Right");
+    }
+    else if (z=='=' && x==y)
+    {
+         printf("Right");
+    }
+    else
+    {
+         printf("Wrong");
+    }
+ 
+}

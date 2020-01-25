@@ -1,0 +1,18 @@
+#include <stdio.h>
+#include <stdlib.h>
+#include<math.h>
+ 
+ 
+int main(void)
+{
+    long long int a,s;
+    scanf("%lld %lld",&a,&s);
+    if (a>=s)
+    {
+        printf ("Yes");
+    }
+    else
+    {
+        printf ("No");
+    }
+}

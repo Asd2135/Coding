@@ -1,0 +1,10 @@
+#include <stdio.h>
+#include <stdlib.h>
+ 
+int main(void)
+{
+    long long a,s,d,f;
+    scanf("%lli%lli%lli%lli",&a,&s,&d,&f);
+    printf("Difference = %lli",(a*s)-(d*f));
+    return 0;
+}

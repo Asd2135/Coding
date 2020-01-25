@@ -1,0 +1,13 @@
+#include <stdio.h>
+#include <stdlib.h>
+ 
+int main()
+{
+ 
+   int num1=3;
+    long long int num2=12345678912345;
+    char nam='a';
+    float n=334.23;
+    long double N=14049.30493;
+    printf("%d\n%lld\n%c\n%.2f\n%.1Lf",num1,num2,nam,n,N);
+}

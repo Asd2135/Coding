@@ -1,0 +1,36 @@
+#include <stdio.h>
+#include<string.h>
+#include<math.h>
+ 
+int main() {
+    long long a,c,e,z;
+char d,b;
+scanf("%lli %c %lli %c %lli",&a,&b,&c,&d,&e);
+if(b=='+')
+{
+    z=a+c;
+if(a+c==e)
+printf("Yes");
+else
+    printf("%d",z);
+}
+else if(b=='-')
+{
+    z=a-c;
+if(a-c==e)
+printf("Yes");
+else
+    printf("%d",z);
+}
+else if(b=='*')
+{
+    z=a*c;
+if(a*c==e)
+printf("Yes");
+else
+    printf("%d",z);
+}
+ 
+ 
+return 0;
+}

@@ -1,0 +1,10 @@
+# include <stdio.h>
+int main()
+{
+    char a,b,c,d;
+    scanf("%s%s%s%s",&a,&b,&c,&d);
+    if (b==d)
+        printf("ARE Brothers\n");
+    else
+        printf("NOT\n");
+}

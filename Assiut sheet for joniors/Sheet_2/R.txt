@@ -1,0 +1,19 @@
+#include <stdio.h>
+#include <stdlib.h>
+ 
+int main()
+{
+  long long x, z,i,gcd;
+	scanf("%lli %lli", &x, &z);
+ 
+ 
+			for ( i = 1; i <=z; i++){
+				if (x%i == 0&& z%i == 0)
+                    gcd=i;
+ 
+			}
+			printf("%lli", gcd);
+ 
+ 
+	return 0;
+}

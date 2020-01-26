@@ -1,0 +1,33 @@
+#include <stdio.h>
+#include <stdlib.h>
+#include<math.h>
+#include<string.h>
+ 
+ 
+int main()
+{
+     long i,n,c,m,sum=0,z=0,s=0,res;
+     scanf("%ld %ld %ld",&m,&n,&c);
+ 
+ 
+     for (i=1;i<=m;i++)
+     {
+ 
+         res=i;
+         while(res>0)
+    {
+        z=res%10;
+        sum+=z;
+        res/=10;
+    }
+     if (sum>=n&& sum<=c)
+     {
+         s+=i;
+ 
+     }
+sum=0;
+     }
+ printf("%d",s);
+ 
+return 0;
+}

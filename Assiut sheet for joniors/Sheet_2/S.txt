@@ -1,0 +1,51 @@
+#include <stdio.h>
+#include <stdlib.h>
+#include<math.h>
+#include<string.h>
+int main()
+{
+    long i,n,m,sum=0,c;
+    here:
+    scanf("%d %d",&n,&m);
+ 
+ 
+    if (n>0 && m>0)
+    {
+        if (m>n)
+        {
+ 
+    for (i=n;i<=m;i++)
+    {
+        printf("%d ",i);
+        sum+=i;
+ 
+    }
+       printf("sum =%d\n",sum);
+       sum=0;
+      goto here;
+ 
+         }
+ 
+ 
+    else
+    {
+ 
+    for (i=m;i<=n;i++)
+    {
+        printf("%d ",i);
+        sum+=i;
+ 
+    }
+    printf("sum =%d\n",sum);
+    sum=0;
+    }
+    goto here;
+    }
+    else
+    {
+ 
+    }
+ 
+ 
+   return 0;
+}

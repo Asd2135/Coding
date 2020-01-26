@@ -1,0 +1,38 @@
+#include <stdio.h>
+#include <stdlib.h>
+#include<math.h>
+#include<string.h>
+ 
+ 
+int main()
+{
+     long long x;
+        long long a,b,c,vv;
+    scanf("%lld",&x);
+    for( long long i =1; i <=x ; i++)
+{
+        for(long long j=x-1;j>=i;j--)
+   {
+       printf(" ");
+   }
+   for(long long k=1;k<=i+(i-1);k++)
+   {
+       printf("*");
+   }
+                    printf("\n");
+}
+        for( long long i =x; i>=1; i--)
+{
+        for(long long j=1;j<=abs(i-x);j++)
+   {
+       printf(" ");
+   }
+   for(long long k=1;k<=i+(i-1);k++)
+   {
+       printf("*");
+   }
+                    printf("\n");
+}
+ 
+return 0;
+}

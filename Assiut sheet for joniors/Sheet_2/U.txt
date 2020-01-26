@@ -1,0 +1,18 @@
+#include<stdio.h>
+int main()
+{
+int x,I,j;
+scanf("%d",&x);
+for(I=1;I<=2*x;I=I+2)
+{
+for(j=x*2-1;j>I;j=j-2)
+{
+printf(" ");
+}
+for(j=0;j<I;j++){
+printf("*");
+}
+printf("\n");
+}
+return 0;
+}

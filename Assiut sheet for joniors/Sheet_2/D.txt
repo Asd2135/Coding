@@ -1,0 +1,25 @@
+#include <stdio.h>
+#include <stdlib.h>
+#include<math.h>
+#include<string.h>
+ 
+ 
+int main(void)
+{
+    int a,b,c=0,d=0,e=0,f=0;
+    scanf("%d",&a);
+    for (int i=1;i<=a;i++)
+    {
+        scanf("%d",&b);
+        if (b%2==0) c++;
+        if (b>0) d++;
+        if (b<0) e++;
+        if (b%2==-1 || b%2==1) f++;
+    }
+     printf("Even: %d\n",c);
+    printf("Odd: %d\n",f);
+    printf("Positive: %d\n",d);
+    printf("Negative: %d\n",e);
+    return 0;
+ 
+}

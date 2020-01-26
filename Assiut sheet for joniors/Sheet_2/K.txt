@@ -1,0 +1,17 @@
+#include<stdio.h>
+int main()
+{
+   int a,n,j,f;
+  scanf("%d",&a);
+  for(n=0;n<a;n++){
+    scanf("%d",&j);
+  long long int fact=1;
+  int b;
+  for(b=1;b<=j;b++){
+     fact = fact*b;
+   }
+   printf("%lld\n",fact);
+  }
+ 
+  return 0;
+}

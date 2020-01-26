@@ -1,0 +1,6 @@
+#include <stdio.h>
+int main(){
+        int n,i;
+        scanf("%i %i",&n,&i);
+        printf("%i",(n+i+1)/2);
+    }

@@ -1,0 +1,17 @@
+#include <stdio.h>
+ 
+int main(){
+	int pass=1999;
+	double userpass;
+	int flag=1;
+	while (flag){
+		scanf("%lf",&userpass);
+		if(userpass==pass){
+			printf("Correct\n");
+			flag=0;
+		}
+		else
+		printf("Wrong\n");
+	}
+	return 0;
+}

@@ -1,0 +1,12 @@
+#include<stdio.h>
+int main()
+{
+long long n ,i,c=0 ;
+scanf("%lli",&n);
+for(i=1;i<=n;i++)
+{
+c=c+i;
+}
+ printf("%lli\n",c);
+ return 0;
+}

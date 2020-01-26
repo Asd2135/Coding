@@ -1,0 +1,35 @@
+#include <stdio.h>
+#include <stdlib.h>
+#include<math.h>
+#include<string.h>
+ 
+ 
+int main()
+{
+     long long x,y, result=0,countt=0,counter=1,d;
+        int n;
+        scanf("%d",&n);
+        while(counter<=n)
+{
+    scanf("%lld",&x);
+    while(x>0)
+    {
+        if(x%2!=0)
+        {
+            countt++;
+        }
+        x/=2;
+    }
+    while(countt--)
+    {
+    result+=pow(2,countt);
+    }
+ 
+    counter++;
+    printf("%lld\n",result);
+    result=0;
+    countt=0;
+ 
+}
+return 0;
+}
